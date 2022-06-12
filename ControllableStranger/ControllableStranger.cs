@@ -21,12 +21,12 @@ namespace ControllableStranger
 
         private void Update()
         {
-            if (Keyboard.current.zKey.wasPressedThisFrame)
+            if (Keyboard.current.numpad2Key.wasPressedThisFrame)
             {
                 Locator.GetRingWorldController().BreakDam();
             }
 
-            if (Keyboard.current.xKey.wasPressedThisFrame)
+            if (Keyboard.current.numpad3Key.wasPressedThisFrame)
             {
                 Locator.GetRingWorldController().CollapseLighthouse();
             }
