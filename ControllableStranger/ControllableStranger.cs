@@ -16,7 +16,7 @@ namespace ControllableStranger
 
         private void Start()
         {
-            ModHelper.Console.WriteLine($"Controllable Stranger Mod Loaded!");
+            ModHelper.Console.WriteLine($"{nameof(ControllableStranger)} Loaded correctly!", MessageType.Success);
         }
 
         private void Update()
